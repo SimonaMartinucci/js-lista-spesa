@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: brown;
+    color: white;
+    height: 100vh;
+}
+
+h1 {
+    margin: 30px 0;
+    font-size: 40px;
+}
+
+.my_button {
+    display: inline-block;
+    margin: 30px 0 40px;
+    background-color: white;
+    color: brown;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.my_button:hover {
+    cursor: pointer;
+}
+
+li {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
